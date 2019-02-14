@@ -7,7 +7,7 @@ def second_challenge
   }
 
   groceries.collect do |category, attribute|
-    attribute.each {|item| item}
+    category.values
   end
   
 
