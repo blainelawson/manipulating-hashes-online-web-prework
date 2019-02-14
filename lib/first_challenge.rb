@@ -19,6 +19,7 @@ def first_challenge
   #your code here
 
   contacts.each do |person, data|
+    data.delete_if do ||
       binding.pry
   end
 
