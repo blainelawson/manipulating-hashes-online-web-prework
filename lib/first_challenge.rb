@@ -22,6 +22,7 @@ def first_challenge
     data.each do |attribute, value|
       
       binding.pry
+    end
   end
 
 
