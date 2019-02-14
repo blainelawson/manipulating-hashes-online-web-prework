@@ -29,7 +29,7 @@ def first_challenge
   #   end
   # end
 
-  delete_if.contacts["Freddy Mercury"][:favorite_icecream_flavors] do |value|
+  contacts["Freddy Mercury"][:favorite_icecream_flavors].delete_if do |value|
     if value == "strawberry"
   end
   
