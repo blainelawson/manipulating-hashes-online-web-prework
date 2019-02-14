@@ -9,7 +9,7 @@ def second_challenge
   grocery_list = Array.new
   
   groceries.collect do |category, list|
-    list.each {|item| item.values}
+    list.each {|item| item}
   end
   
 
