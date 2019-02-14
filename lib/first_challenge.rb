@@ -18,7 +18,8 @@ def first_challenge
 
   #your code here
 
-  contacts.each do |attribute, data|
+  contacts.each do |person, data|
+    contacts.each do |attribute, value|
       puts "#{data}"
       binding.pry
   end
