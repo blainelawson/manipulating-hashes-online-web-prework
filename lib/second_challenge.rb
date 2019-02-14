@@ -7,6 +7,7 @@ def second_challenge
   }
 
   groceries.collect do |category, attribute|
+    binding.pry
     category.values
   end
   
