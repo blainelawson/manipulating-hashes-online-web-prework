@@ -8,9 +8,10 @@ def second_challenge
 
   grocery_list = Array.new
   
-  groceries.collect do |category, list|
-    list.each {|item| item}
+  groceries.each do |category, list|
+    list.each {|item| grocery_list << item}
   end
   
+  grocery_list
 
 end
