@@ -19,9 +19,9 @@ def first_challenge
   #your code here
 
   contacts.each do |person, data|
-    data.delete_if do |attribute, value|
-      puts "#{data}"
+    data.each do |attribute, value|
       binding.pry
+    end
   end
 
 
