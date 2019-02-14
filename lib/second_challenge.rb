@@ -6,7 +6,9 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  groceries.collect {|value| groceries.values}
+  groceries.collect do |category, attribute|
+    attribute.values
+  end
   
 
 end
