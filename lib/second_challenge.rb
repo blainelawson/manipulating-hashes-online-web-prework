@@ -15,3 +15,13 @@ def second_challenge
 #   grocery_list
 
 # end
+
+  grocery_list = Array.new
+  
+  groceries.each do |category, list|
+    list.each {|item| grocery_list << item}
+  end
+  
+  grocery_list
+
+end
