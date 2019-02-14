@@ -24,9 +24,10 @@ def first_challenge
         value.delete_if do |flavor|
           flavor == "strawberry"
         end
+      end
         
         
-      binding.pry
+      
     end
   end
 
