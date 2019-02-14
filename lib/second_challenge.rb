@@ -6,9 +6,6 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  groceries.collect do |category, item| 
-    binding.pry
-    item.values
-  end
+  groceries.values.flatten
 
 end
