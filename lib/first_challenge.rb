@@ -19,7 +19,7 @@ def first_challenge
   #your code here
 
   contacts.each do |person, data|
-    delete_if do |attribute, value|
+    data.delete_if do |attribute, value|
       puts "#{data}"
       binding.pry
   end
