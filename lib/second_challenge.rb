@@ -16,12 +16,10 @@ def second_challenge
 
 # end
 
-  grocery_list = Array.new
   
-  groceries.each do |category, list|
-    list.each {|item| grocery_list << item}
+  groceries.collect do |category, list|
+    list.values
   end
-  
-  grocery_list
+
 
 end
